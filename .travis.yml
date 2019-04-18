@@ -5,9 +5,9 @@ branches:
   - master
   - /^greenkeeper/.*$/
   - /^feature/.*$/
-cache:
-  directories:
-    - node_modules
+# cache:
+#   directories:
+#     - node_modules
 before_install:
   - npm i -g add bs-platform
 script:

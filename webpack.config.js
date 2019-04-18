@@ -17,8 +17,8 @@ const useRollup = process.env.ROLLUP == '1';
 const useShakePlugin = prod || process.env.SHAKE == '1';
 const useClosureCompiler = process.env.CLOSURE === '1';
 
-let publicUrl = prod ? '/ghibli-reasonreact' : '';
-let publicPath = prod ? '/ghibli-reasonreact/' : '/build/';
+let publicUrl = prod ? '/ghibli-reasonreact/' : '';
+let publicPath = prod ? '/ghibli-reasonreact/' : '/';
 
 const extractHTML = new HtmlWebpackPlugin({
   filename: 'index.html',
