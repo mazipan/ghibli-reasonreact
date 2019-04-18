@@ -11,9 +11,7 @@ cache:
 before_install:
   - npm i -g add bs-platform
 script:
-  - npm link bs-platform
-  - npm link webpack-cli
-  - npm link webpack
+  - npm link
   - npm run build
 deploy:
   provider: pages
