@@ -9,6 +9,8 @@ cache:
   yarn: true
   directories:
     - node_modules
+before_install:
+  - yarn global add bs-platform
 install:
   - yarn install
 script:
