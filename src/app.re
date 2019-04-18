@@ -14,7 +14,7 @@ let reducer = (action, _state) =>
 
 let mapUrlToRoute = (url: ReasonReact.Router.url) =>
   switch (url.path) {
-  | ["/"] => Home
+  | [] => Home
   | _ => NotFound
   };
 

@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[https://mazipan.github.io/ghibli-reasonreact/](https://mazipan.github.io/ghibli-reasonreact/)
+[https://ghibli-reasonreact.netlify.com](https://ghibli-reasonreact.netlify.com)
 
 ## Development
 

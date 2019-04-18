@@ -17,10 +17,10 @@ const useRollup = process.env.ROLLUP == '1';
 const useShakePlugin = prod || process.env.SHAKE == '1';
 const useClosureCompiler = process.env.CLOSURE === '1';
 
-const prodBaseUrl = 'https://mazipan.github.io'
+const prodBaseUrl = 'https://ghibli-reasonreact.netlify.com'
 
-let publicUrl = prod ? '/ghibli-reasonreact/' : '';
-let publicPath = prod ? '/ghibli-reasonreact/' : '/';
+let publicUrl = '';
+let publicPath = '/';
 const templateHtml = prod ? path.join(__dirname, '/public/index-prod.html') : path.join(__dirname, '/public/index.html');
 
 const extractHTML = new HtmlWebpackPlugin({
