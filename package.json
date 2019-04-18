@@ -1,5 +1,5 @@
 {
-  "name": "ghibli-reasonml",
+  "name": "ghibli-reasonreact",
   "private": true,
   "version": "0.0.0",
   "description": "Ghibli studio's film explorer built with ReasonReact",

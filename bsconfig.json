@@ -3,7 +3,7 @@
   comma. If this screws with your editor highlighting, please tell us by filing
   an issue! */
 {
-  "name": "ghibli-reasonml",
+  "name": "ghibli-reasonreact",
   "reason": {"react-jsx": 2},
   "package-specs": ["commonjs", "es6"],
   "bs-dependencies": [
