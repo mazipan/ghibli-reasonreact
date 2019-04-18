@@ -20,7 +20,7 @@
     },
     {
       "name": "app.js",
-      "size": 157419,
+      "size": 157446,
       "chunks": [
         0
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "app.js.gz",
-      "size": 50111,
+      "size": 50125,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
@@ -68,7 +68,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 405095,
+      "size": 405128,
       "names": [
         "app"
       ],
@@ -1503,7 +1503,7 @@
           "name": "./lib/js/src/app.js",
           "index": 1,
           "index2": 52,
-          "size": 2522,
+          "size": 2555,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4601,7 +4601,7 @@
       "name": "./lib/js/src/app.js",
       "index": 1,
       "index2": 52,
-      "size": 2522,
+      "size": 2555,
       "cacheable": true,
       "built": true,
       "optional": false,
