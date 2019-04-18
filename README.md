@@ -1,6 +1,6 @@
 # Ghibli ReasonReact
 
-[![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/)
+[![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/) [![Netlify Status](https://api.netlify.com/api/v1/badges/c2269950-e6b3-4dcf-9214-19d77963182d/deploy-status)](https://app.netlify.com/sites/ghibli-reasonreact/deploys)
 
 👻 Ghibli studio's film explorer built with [Reason React](https://github.com/reasonml/reason-react), based on [Reason React Hackernews Boilerplate](https://github.com/reasonml-community/reason-react-hacker-news)
 
