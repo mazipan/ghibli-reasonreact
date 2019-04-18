@@ -4,8 +4,8 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
   ],
   "version": "4.30.0",
-  "hash": "fdb1bc7cfff7b1e63eaa",
-  "publicPath": "/ghibli-reasonreact/",
+  "hash": "3397a16302def9faa329",
+  "publicPath": "/",
   "outputPath": "/home/travis/build/mazipan/ghibli-reasonreact/dist",
   "assetsByChunkName": {
     "app": "app.js"
@@ -20,7 +20,7 @@
     },
     {
       "name": "app.js",
-      "size": 157446,
+      "size": 157380,
       "chunks": [
         0
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "app.js.gz",
-      "size": 50125,
+      "size": 50083,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
@@ -68,14 +68,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 405128,
+      "size": 405095,
       "names": [
         "app"
       ],
       "files": [
         "app.js"
       ],
-      "hash": "2878f8623ac20e85464a",
+      "hash": "064f9eeee64f290b0996",
       "siblings": [],
       "parents": [],
       "children": [],
@@ -1503,7 +1503,7 @@
           "name": "./lib/js/src/app.js",
           "index": 1,
           "index2": 52,
-          "size": 2555,
+          "size": 2522,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4601,7 +4601,7 @@
       "name": "./lib/js/src/app.js",
       "index": 1,
       "index2": 52,
-      "size": 2555,
+      "size": 2522,
       "cacheable": true,
       "built": true,
       "optional": false,

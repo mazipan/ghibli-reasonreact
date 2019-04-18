@@ -1,8 +1,8 @@
 {
-  "app.js": "/ghibli-reasonreact/app.js",
-  "notfound404.png": "/ghibli-reasonreact/8d506f923931e4bf88c7b626e6ab217e.png",
-  "app.js.gz": "/ghibli-reasonreact/app.js.gz",
-  "favicon.png": "/ghibli-reasonreact/favicon.png",
-  "index.html": "/ghibli-reasonreact/index.html",
-  "stats.json": "/ghibli-reasonreact/stats.json"
+  "app.js": "/app.js",
+  "notfound404.png": "/8d506f923931e4bf88c7b626e6ab217e.png",
+  "app.js.gz": "/app.js.gz",
+  "favicon.png": "/favicon.png",
+  "index.html": "/index.html",
+  "stats.json": "/stats.json"
 }
