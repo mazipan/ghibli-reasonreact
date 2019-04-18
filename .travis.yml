@@ -15,6 +15,7 @@ install:
   - yarn install
 script:
   - npm link bs-platform
+  - npm link webpack-cli
   - npm link webpack
   - yarn build
 deploy:
