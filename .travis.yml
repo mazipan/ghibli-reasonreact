@@ -11,13 +11,12 @@ cache:
     - node_modules
 before_install:
   - yarn global add bs-platform
-  - npm link bs-platform
 install:
   - yarn install
 script:
-  - npm link
-  - yarn run clean
-  - yarn run build
+  - npm link bs-platform
+  - npm link webpack
+  - yarn build
 deploy:
   provider: pages
   skip-cleanup: true

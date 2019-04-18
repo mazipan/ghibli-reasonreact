@@ -1,7 +1,7 @@
 {
   "name": "ghibli-reasonreact",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "description": "Ghibli studio's film explorer built with ReasonReact",
   "main": "index.js",
   "scripts": {
