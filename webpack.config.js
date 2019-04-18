@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const ClosureCompilerPlugin = require('webpack-closure-compiler');
 const StatsWriterPlugin = require('webpack-stats-plugin').StatsWriterPlugin;
@@ -16,15 +17,34 @@ const useRollup = process.env.ROLLUP == '1';
 const useShakePlugin = prod || process.env.SHAKE == '1';
 const useClosureCompiler = process.env.CLOSURE === '1';
 
-let publicUrl = '';
+let publicUrl = prod ? '/ghibli-reasonreact' : '';
+let publicPath = prod ? '/ghibli-reasonreact/' : '/build/';
+
+const extractHTML = new HtmlWebpackPlugin({
+  filename: 'index.html',
+  favicon: path.join(__dirname, '/public/favicon.png'),
+  inject: true,
+  template: path.join(__dirname, '/public/index.html'),
+  minify: {
+    removeAttributeQuotes: true,
+    collapseWhitespace: true,
+    html5: true,
+    minifyCSS: true,
+    removeComments: true,
+    removeEmptyAttributes: true
+  },
+  environment: process.env.NODE_ENV
+})
 
 module.exports = {
   context: __dirname,
-  entry: useRollup ? './lib/es6/src/index' : './lib/js/src/index',
+  entry: {
+    app: useRollup ? './lib/es6/src/index' : './lib/js/src/index'
+  },
   output: {
     filename: '[name].js',
-    path: path.join(__dirname, './dist/build'),
-    publicPath: '/build/',
+    path: path.join(__dirname, './dist'),
+    publicPath,
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
@@ -86,7 +106,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: JSON.stringify(!dev ? 'production' : null),
-        PUBLIC_URL: JSON.stringify(publicUrl + '/build'),
+        PUBLIC_URL: JSON.stringify(publicUrl),
       },
     }),
     useClosureCompiler
@@ -134,5 +154,6 @@ module.exports = {
         })
       : null,
     useShakePlugin ? new ShakePlugin() : null,
+    extractHTML,
   ].filter(Boolean),
 };
