@@ -1,15 +1,29 @@
-Ghibli ReasonML
-===
+# Ghibli ReasonML
 
-![Reason React](https://img.shields.io/badge/Reason-React-blue.svg) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/)
+[![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/)
 
 👻 Ghibli studio's film explorer built with [Reason React](https://github.com/reasonml/reason-react), based on [Reason React Hackernews Boilerplate](https://github.com/reasonml-community/reason-react-hacker-news)
 
-Source is in [src/](src/), starting from [src/index.re](src/index.re)
+## Live Demo
 
-You can run the app locally with `yarn start`
+## Development
 
-Build for deployment with `NODE_ENV=production yarn build`
++ To install BuckleScript & Reason globally:
+
+```bash
+yarn global add bs-platform
+```
+
++ You can run the app locally with `yarn start`, then in other tab run `yarn dev`
+
++ Build for production with `yarn build`
+
+## Credit
+
++ [ReasonML](https://reasonml.github.io/)
++ [Reason React](https://github.com/reasonml/reason-react)
++ [React](https://reactjs.org/)
++ [Reason React Hackernews](https://github.com/reasonml-community/reason-react-hacker-news)
 
 ---
 
