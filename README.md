@@ -14,9 +14,17 @@
 yarn global add bs-platform
 ```
 
-+ You can run the app locally with `yarn start`, then in other tab run `yarn dev`
++ You can run the app locally with:
 
-+ Build for production with `yarn build`
+```bash
+yarn start
+```
+
++ Build for production with:
+
+```bash
+yarn build
+```
 
 ## Credit
 

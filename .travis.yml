@@ -11,6 +11,7 @@ cache:
     - node_modules
 before_install:
   - yarn global add bs-platform
+  - npm link bs-platform
 install:
   - yarn install
 script:

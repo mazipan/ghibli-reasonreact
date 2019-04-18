@@ -10,8 +10,8 @@
     "dev": "NODE_ENV=development webpack-dev-server",
     "static": "node scripts/serveStatic.js",
     "bsb-watch": "bsb -make-world -w",
-    "build": "yarn clean:dist && bsb -make-world && NODE_ENV=production webpack",
-    "bsb-build": "bsb -make-world",
+    "build": "yarn clean:dist && yarn build:bsb && NODE_ENV=production webpack",
+    "build:bsb": "bsb -make-world",
     "upload": "./s3_upload.sh",
     "analyze": "NODE_ENV=analyze yarn build; analyze-bundle -b dist/build/main.js -s dist/build/stats.json",
     "clean": "bsb -clean-world",
@@ -22,6 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "@glennsl/bs-json": "^3.0.0",
+    "bs-platform": "5.0.3",
     "bs-fetch": "^0.3.1",
     "bs-webapi": "^0.14.1",
     "react": "^16.8.6",
@@ -29,7 +30,6 @@
     "reason-react": "0.7.0"
   },
   "devDependencies": {
-    "bs-platform": "5.0.3",
     "compression-webpack-plugin": "^2.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
