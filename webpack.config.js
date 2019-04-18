@@ -17,14 +17,18 @@ const useRollup = process.env.ROLLUP == '1';
 const useShakePlugin = prod || process.env.SHAKE == '1';
 const useClosureCompiler = process.env.CLOSURE === '1';
 
+const prodBaseUrl = 'https://mazipan.github.io'
+
 let publicUrl = prod ? '/ghibli-reasonreact/' : '';
 let publicPath = prod ? '/ghibli-reasonreact/' : '/';
+const templateHtml = prod ? path.join(__dirname, '/public/index-prod.html') : path.join(__dirname, '/public/index.html');
 
 const extractHTML = new HtmlWebpackPlugin({
   filename: 'index.html',
   favicon: path.join(__dirname, '/public/favicon.png'),
+  template: templateHtml,
   inject: true,
-  template: path.join(__dirname, '/public/index.html'),
+  base: prod ? prodBaseUrl + publicPath : false,
   minify: {
     removeAttributeQuotes: true,
     collapseWhitespace: true,
