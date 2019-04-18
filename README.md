@@ -6,6 +6,8 @@
 
 ## Live Demo
 
+[https://mazipan.github.io/ghibli-reasonreact/](https://mazipan.github.io/ghibli-reasonreact/)
+
 ## Development
 
 + To install BuckleScript & Reason globally:
