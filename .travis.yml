@@ -1,5 +1,5 @@
 language: node_js
-node_js: '8'
+node_js: '10.15.3'
 branches:
   only:
   - master
@@ -14,8 +14,8 @@ before_install:
   - npm link bs-platform
 install:
   - yarn install
-  - yarn link
 script:
+  - npm link
   - yarn run clean
   - yarn run build
 deploy:
