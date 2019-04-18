@@ -1,4 +1,4 @@
-# Ghibli ReasonML
+# Ghibli ReasonReact
 
 [![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/)
 

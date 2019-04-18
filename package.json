@@ -15,7 +15,7 @@
     "upload": "./s3_upload.sh",
     "analyze": "NODE_ENV=analyze yarn build; analyze-bundle -b dist/build/main.js -s dist/build/stats.json",
     "clean": "bsb -clean-world",
-    "clean:dist": "node_modules/.bin/rimraf dist"
+    "clean:dist": "./node_modules/.bin/rimraf dist"
   },
   "keywords": [],
   "author": "Irfan Maulana <github.com/mazipan>",
