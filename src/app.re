@@ -1,5 +1,7 @@
 type route =
   | Home
+  | Film
+  | FilmDetail(string)
   | NotFound;
 
 type state = {route};
@@ -15,6 +17,8 @@ let reducer = (action, _state) =>
 let mapUrlToRoute = (url: ReasonReact.Router.url) =>
   switch (url.path) {
   | [] => Home
+  | ["film"] => Film
+  | ["film", id ]=> FilmDetail(id)
   | _ => NotFound
   };
 
@@ -23,7 +27,7 @@ let component = ReasonReact.reducerComponent("App");
 let make = _children => {
   ...component,
   reducer,
-  initialState: () => {route: Home},
+  initialState: () => { route: Home },
   didMount: self => {
     let watchId =
       ReasonReact.Router.watchUrl(url =>
@@ -34,6 +38,8 @@ let make = _children => {
   render: self =>
     switch (self.state.route) {
     | Home => <FilmPage />
+    | Film => <FilmPage />
+    | FilmDetail(id) => <FilmDetailPage id/>
     | NotFound => <NotFound />
     },
 };

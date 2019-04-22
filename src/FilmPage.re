@@ -4,12 +4,12 @@ open Utils;
 requireCSS("src/FilmPage.css");
 
 type state = {
-  films: FilmData.films,
+  films: FilmModel.films,
   loading: bool,
 };
 
 type action =
-  | Loaded((FilmData.films))
+  | Loaded((FilmModel.films))
   | Loading;
 
 let component = ReasonReact.reducerComponent("FilmPage");
@@ -27,19 +27,21 @@ let make = _children => {
       });
     },
   didMount: self => {
-    FilmData.fetchFilms(data => self.send(Loaded(data)))
+    FilmService.fetchFilms(data => self.send(Loaded(data)))
   },
-  render: _self =>
+  render: ({ state }) =>
     <div className="FilmPage">
     (
-      if (Array.length(_self.state.films) > 0) {
-        _self.state.films
+      if (Array.length(state.films) > 0) {
+        state.films
         ->(
             Array.map((film) =>
               <div
-                className="FilmPage_item"
+                className="FilmPage__item"
                 key=(film.id)>
-                { ReasonReact.string("" ++ film.title ++ " ("++  film.release_date ++")") }
+                <Link href={"/film/" ++ film.id}>
+                  { ReasonReact.string("" ++ film.title ++ " ("++  film.release_date ++")") }
+                </Link>
               </div>
             )
           )

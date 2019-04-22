@@ -1,6 +1,6 @@
-.FilmPage{
-
-}
-.FilmPage_item{
+.FilmPage__item{
   padding: 1em 0;
+}
+.FilmDetailPage__desc{
+  margin-top: 2em;
 }
