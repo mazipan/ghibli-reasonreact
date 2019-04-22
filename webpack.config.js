@@ -10,6 +10,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const { GenerateSW } = require('workbox-webpack-plugin');
 const rollupPluginNodeResolve = require('rollup-plugin-node-resolve');
 const CopyPlugin = require('copy-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 const prod = process.env.NODE_ENV == 'production';
 const dev = !prod && process.env.DEV !== '0';
@@ -23,13 +24,29 @@ const prodBaseUrl = 'https://ghibli-reasonreact.netlify.com'
 let publicUrl = '';
 let publicPath = '/';
 const templateHtml = path.join(__dirname, '/public/index.html');
+const favicon = path.join(__dirname, '/public/favicon.png');
+const htmlTitle = 'Ghibli Reason React';
+const htmlDescription = 'Ghibli studio\'s film explorer built with ReasonReact';
 
 const extractHTML = new HtmlWebpackPlugin({
   filename: 'index.html',
-  favicon: path.join(__dirname, '/public/favicon.png'),
+  favicon: favicon,
   template: templateHtml,
   inject: true,
   base: prod ? prodBaseUrl + publicPath : false,
+  meta: {
+    'title': htmlTitle,
+    'description': htmlDescription,
+    'og:image': prodBaseUrl + '/favicon.png',
+    'og:title': htmlTitle,
+    'og:description': htmlDescription,
+    'og:url': prodBaseUrl,
+    'twitter:card': 'summary_large_image',
+    'twitter:image:src': prodBaseUrl + '/favicon.png',
+    'twitter:title': htmlTitle,
+    'twitter:description': htmlDescription,
+    'twitter:url': prodBaseUrl,
+  },
   minify: {
     removeAttributeQuotes: true,
     collapseWhitespace: true,
@@ -149,6 +166,26 @@ module.exports = {
     new CopyPlugin([
       { from: 'public/_redirects', to: '.' }
     ]),
+    new FaviconsWebpackPlugin({
+      logo: favicon,
+      prefix: 'icons/',
+      inject: true,
+      background: '#db4d3f',
+      persistentCache: true,
+      title: 'Ghibli ReasonReact',
+      icons: {
+        android: true,
+        appleIcon: true,
+        favicons: true,
+        appleStartup: false,
+        coast: false,
+        firefox: false,
+        opengraph: false,
+        twitter: false,
+        yandex: false,
+        windows: false
+      }
+    }),
     new ManifestPlugin({
       fileName: 'asset-manifest.json',
     }),
