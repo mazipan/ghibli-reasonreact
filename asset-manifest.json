@@ -4,8 +4,9 @@
   "_redirects": "/_redirects",
   "app.js.gz": "/app.js.gz",
   "favicon.png": "/favicon.png",
+  "icons/favicon.png": "/icons/manifest.json",
   "index.html": "/index.html",
-  "precache-manifest.d807abc9afc7115c0552a4b81d7efea2.js": "/precache-manifest.d807abc9afc7115c0552a4b81d7efea2.js",
+  "precache-manifest.18711e6bbaa6a7eefac11ef97f28821a.js": "/precache-manifest.18711e6bbaa6a7eefac11ef97f28821a.js",
   "service-worker.js": "/service-worker.js",
   "stats.json": "/stats.json"
 }

@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
   ],
   "version": "4.30.0",
-  "hash": "b613855634cbf613889a",
+  "hash": "79bb8d5b7f0e6f25fad7",
   "publicPath": "/",
   "outputPath": "/home/travis/build/mazipan/ghibli-reasonreact/dist",
   "assetsByChunkName": {
@@ -32,6 +32,195 @@
     {
       "name": "app.js.gz",
       "size": 50667,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/.cache",
+      "size": 2496,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-144x144.png",
+      "size": 10838,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-192x192.png",
+      "size": 15136,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-256x256.png",
+      "size": 21446,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-36x36.png",
+      "size": 2015,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-384x384.png",
+      "size": 36418,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-48x48.png",
+      "size": 2980,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-512x512.png",
+      "size": 56453,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-72x72.png",
+      "size": 4892,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/android-chrome-96x96.png",
+      "size": 6752,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-114x114.png",
+      "size": 8273,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-120x120.png",
+      "size": 8572,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-144x144.png",
+      "size": 10838,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-152x152.png",
+      "size": 11494,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-167x167.png",
+      "size": 12689,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-180x180.png",
+      "size": 14059,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-57x57.png",
+      "size": 3726,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-60x60.png",
+      "size": 3922,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-72x72.png",
+      "size": 4892,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-76x76.png",
+      "size": 5273,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon-precomposed.png",
+      "size": 14059,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/apple-touch-icon.png",
+      "size": 14059,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/favicon-16x16.png",
+      "size": 640,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/favicon-32x32.png",
+      "size": 1735,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/favicon.ico",
+      "size": 33310,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icons/manifest.json",
+      "size": 1221,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "iconstats-d36a5bcb19afa879b38d.json",
+      "size": 2377,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
@@ -3257,18 +3446,18 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
-              "module": "./node_modules/bs-platform/lib/js/caml_io.js",
-              "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
+              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
+              "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
+              "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
               "type": "cjs require",
               "userRequest": "process",
               "loc": "1:0-40"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
-              "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
-              "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
+              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
+              "module": "./node_modules/bs-platform/lib/js/caml_io.js",
+              "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
               "type": "cjs require",
               "userRequest": "process",
               "loc": "1:0-40"
@@ -6454,18 +6643,18 @@
       "reasons": [
         {
           "moduleId": null,
-          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
-          "module": "./node_modules/bs-platform/lib/js/caml_io.js",
-          "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
+          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
+          "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
+          "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
           "type": "cjs require",
           "userRequest": "process",
           "loc": "1:0-40"
         },
         {
           "moduleId": null,
-          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
-          "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
-          "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
+          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
+          "module": "./node_modules/bs-platform/lib/js/caml_io.js",
+          "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
           "type": "cjs require",
           "userRequest": "process",
           "loc": "1:0-40"
