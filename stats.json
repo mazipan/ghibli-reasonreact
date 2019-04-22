@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
   ],
   "version": "4.30.0",
-  "hash": "79bb8d5b7f0e6f25fad7",
+  "hash": "1311cfc78b6562602da6",
   "publicPath": "/",
   "outputPath": "/home/travis/build/mazipan/ghibli-reasonreact/dist",
   "assetsByChunkName": {
@@ -219,7 +219,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-d36a5bcb19afa879b38d.json",
+      "name": "iconstats-c7f373162f81259bb50f.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -3446,18 +3446,18 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
-              "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
-              "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
+              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
+              "module": "./node_modules/bs-platform/lib/js/caml_io.js",
+              "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
               "type": "cjs require",
               "userRequest": "process",
               "loc": "1:0-40"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
-              "module": "./node_modules/bs-platform/lib/js/caml_io.js",
-              "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
+              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
+              "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
+              "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
               "type": "cjs require",
               "userRequest": "process",
               "loc": "1:0-40"
@@ -6643,18 +6643,18 @@
       "reasons": [
         {
           "moduleId": null,
-          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
-          "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
-          "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
+          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
+          "module": "./node_modules/bs-platform/lib/js/caml_io.js",
+          "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
           "type": "cjs require",
           "userRequest": "process",
           "loc": "1:0-40"
         },
         {
           "moduleId": null,
-          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
-          "module": "./node_modules/bs-platform/lib/js/caml_io.js",
-          "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
+          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
+          "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
+          "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
           "type": "cjs require",
           "userRequest": "process",
           "loc": "1:0-40"
