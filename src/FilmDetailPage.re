@@ -1,6 +1,7 @@
 open Utils;
 
 requireCSS("src/FilmPage.css");
+let placeholderImage = requireAssetURI("src/placeholder.png");
 
 type state = {
   film: option(FilmModel.film),
@@ -34,6 +35,12 @@ let make = (~id, _children) => {
         switch (state.film) {
           | Some(film) =>
             <div>
+              (
+                switch (film.image) {
+                  | Some(image) => <img alt=film.title src=image className="FilmDetailPage__img"/>
+                  | None => <img alt=film.title src=placeholderImage />
+                  }
+              )
               <h1 className="FilmDetailPage__title">
                 <Link href="/film">
                   { ReasonReact.string("" ++ film.title ++ " ("++  film.release_date ++")") }
