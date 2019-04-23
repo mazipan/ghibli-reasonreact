@@ -38,6 +38,7 @@ yarn build
 + [Reason React](https://github.com/reasonml/reason-react)
 + [React](https://reactjs.org/)
 + [Reason React Hackernews](https://github.com/reasonml-community/reason-react-hacker-news)
++ [Janaipakos](https://github.com/janaipakos) for awesome [Ghibli Studio API](https://ghibliapi.herokuapp.com/)
 
 ---
 
