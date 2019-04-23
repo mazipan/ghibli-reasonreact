@@ -3,10 +3,11 @@
   "notfound404.png": "/8d506f923931e4bf88c7b626e6ab217e.png",
   "_redirects": "/_redirects",
   "app.js.gz": "/app.js.gz",
+  "placeholder.png": "/ca4d9cb218ce682f4f615880812c8e85.png",
   "favicon.png": "/favicon.png",
   "icons/favicon.png": "/icons/manifest.json",
   "index.html": "/index.html",
-  "precache-manifest.a5def99300f4aff21c1f61f5bdc63ef1.js": "/precache-manifest.a5def99300f4aff21c1f61f5bdc63ef1.js",
+  "precache-manifest.fe6f95905fa8031cbc3c0898e596187b.js": "/precache-manifest.fe6f95905fa8031cbc3c0898e596187b.js",
   "service-worker.js": "/service-worker.js",
   "stats.json": "/stats.json"
 }
