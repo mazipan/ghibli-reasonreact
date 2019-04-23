@@ -2,16 +2,22 @@ let filmBaseUrl = "https://ghibliapi.herokuapp.com/films";
 let filmDetailUrl = id => {j|$filmBaseUrl/$id|j};
 
 module Decode = {
-  let film = (json): FilmModel.film =>
+  let film = (json): FilmModel.film => {
+    let id = Json.Decode.(json |> field("id", string));
+    let staticData = FilmConstant.ConstantFilm.getAdditionalData(id)
     Json.Decode.{
-      id: json |> field("id", string),
+      id: id,
       title: json |> field("title", string),
       description: json |> field("description", string),
       director: json |> field("director", string),
       producer: json |> field("producer", string),
       release_date: json |> field("release_date", string),
       rt_score: json |> field("rt_score", string),
-    };
+      imdb: Some(staticData.imdb),
+      image: Some(staticData.image),
+      streaming: Some(staticData.streaming)
+    }
+  }
   let films = (json): array(FilmModel.film) =>
     Json.Decode.(json |> array(film));
 };

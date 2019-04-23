@@ -1,6 +1,22 @@
-.FilmPage__item{
-  padding: 1em 0;
+.FilmPage{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+.FilmPage__item{
+  margin: 1em .5em;
+  width: 182px;
+}
+.FilmPage__item-img{
+  display: block;
+  border-radius: .5em;
+  width: 182px;
+  height: 268px;
+}
+.FilmPage__item-title{
+  margin-top: .5em;
+}
+
 .FilmDetailPage__desc{
   margin-top: 2em;
 }

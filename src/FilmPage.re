@@ -2,6 +2,7 @@ open Belt;
 open Utils;
 
 requireCSS("src/FilmPage.css");
+let placeholderImage = requireAssetURI("src/placeholder.png");
 
 type state = {
   films: FilmModel.films,
@@ -39,8 +40,14 @@ let make = _children => {
               <div
                 className="FilmPage__item"
                 key=(film.id)>
-                <Link href={"/film/" ++ film.id}>
-                  { ReasonReact.string("" ++ film.title ++ " ("++  film.release_date ++")") }
+                (
+                  switch (film.image) {
+                    | Some(image) => <img alt=film.title src=image className="FilmPage__item-img"/>
+                    | None => <img alt=film.title src=placeholderImage />
+                    }
+                )
+                <Link href={"/film/" ++ film.id} className="FilmPage__item-title">
+                  <h2>{ ReasonReact.string("" ++ film.title ++ " ("++  film.release_date ++")") }</h2>
                 </Link>
               </div>
             )
