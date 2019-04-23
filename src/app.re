@@ -37,8 +37,8 @@ let make = _children => {
   },
   render: self =>
     switch (self.state.route) {
-    | Home => <FilmPage />
-    | Film => <FilmPage />
+    | Home => <HomePage />
+    | Film => <HomePage />
     | FilmDetail(id) => <FilmDetailPage id/>
     | NotFound => <NotFound />
     },

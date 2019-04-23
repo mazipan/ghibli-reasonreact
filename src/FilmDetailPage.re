@@ -4,12 +4,12 @@ requireCSS("src/FilmPage.css");
 let placeholderImage = requireAssetURI("src/placeholder.png");
 
 type state = {
-  film: option(FilmModel.film),
+  film: option(Model.film),
   loading: bool,
 };
 
 type action =
-  | Loaded((FilmModel.film))
+  | Loaded((Model.film))
   | Loading;
 
 let component = ReasonReact.reducerComponent("FilmDetailPage");
@@ -26,8 +26,8 @@ let make = (~id, _children) => {
         loading: false,
       });
     },
-  didMount: self => {
-    FilmService.fetchFilmDetail(id, data => self.send(Loaded(data)))
+  didMount: ({send}) => {
+    FilmService.fetchData(~remoteUrl=Constants.Url.get_detail_from_id(id), ~decoder=Model.read_film, ~callback=data => send(Loaded(data)))
   },
   render: ({ state }) =>
     <div className="FilmDetailPage">
