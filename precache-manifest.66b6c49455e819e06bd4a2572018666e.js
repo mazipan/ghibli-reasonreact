@@ -3,11 +3,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/8d506f923931e4bf88c7b626e6ab217e.png"
   },
   {
-    "revision": "99d375d5aca933e03834",
+    "revision": "a4c22340f9fea01807f4",
     "url": "/app.js"
   },
   {
-    "revision": "59e2e923a8642b044a0e73963267e068",
+    "revision": "45f135e3196fd5ae64b6e294a08e06ad",
     "url": "/app.js.gz"
   },
   {
@@ -18,7 +18,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon.png"
   },
   {
-    "revision": "4aa65f28f3ec6fadf140404e309bd186",
+    "revision": "ee7aca1a0fdc3818be278d9057d95d0d",
     "url": "/icons/.cache"
   },
   {
@@ -122,15 +122,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/icons/manifest.json"
   },
   {
-    "revision": "d9e0fd0d5befc52a0b80f2db49f1ed97",
-    "url": "/iconstats-c7f373162f81259bb50f.json"
+    "revision": "0a7c4560d750b5e22dcfd04fc4434918",
+    "url": "/iconstats-e748ca8effac612736a6.json"
   },
   {
-    "revision": "781608d1988863479a93658ee06b4dd7",
+    "revision": "fdddef1be42be9a24aa0f9f28f02d4ea",
     "url": "/index.html"
   },
   {
-    "revision": "0081c050375a0c80554c0282bbb801f8",
+    "revision": "a92b3b2a034c668bfa4b47e4a672988d",
     "url": "/stats.json"
   }
 ]);
