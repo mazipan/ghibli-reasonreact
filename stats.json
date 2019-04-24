@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
   ],
   "version": "4.30.0",
-  "hash": "93f2bb985a7ee5ec77aa",
+  "hash": "b5e8d4cb6059806778f3",
   "publicPath": "/",
   "outputPath": "/home/travis/build/mazipan/ghibli-reasonreact/dist",
   "assetsByChunkName": {
@@ -226,7 +226,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-725c9b2d899b40baba80.json",
+      "name": "iconstats-c7f373162f81259bb50f.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -587,9 +587,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
+          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
           "issuerId": null,
-          "issuerName": "./lib/js/src/screens/notfound/NotFound.js",
+          "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
           "issuerPath": [
             {
               "id": 26,
@@ -603,8 +603,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-              "name": "./lib/js/src/screens/notfound/NotFound.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             }
           ],
           "failed": false,
@@ -1234,9 +1234,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-          "issuerId": 52,
-          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/screens/notfound/NotFound.css",
+          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+          "issuerId": 48,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/screens/homepage/HomePage.css",
           "issuerPath": [
             {
               "id": 26,
@@ -1250,18 +1250,18 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-              "name": "./lib/js/src/screens/notfound/NotFound.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             },
             {
-              "id": 51,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-              "name": "./src/screens/notfound/NotFound.css"
+              "id": 47,
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+              "name": "./src/screens/homepage/HomePage.css"
             },
             {
-              "id": 52,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-              "name": "./node_modules/css-loader/dist/cjs.js!./src/screens/notfound/NotFound.css"
+              "id": 48,
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/screens/homepage/HomePage.css"
             }
           ],
           "failed": false,
@@ -1319,9 +1319,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-          "issuerId": 51,
-          "issuerName": "./src/screens/notfound/NotFound.css",
+          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+          "issuerId": 47,
+          "issuerName": "./src/screens/homepage/HomePage.css",
           "issuerPath": [
             {
               "id": 26,
@@ -1335,13 +1335,13 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-              "name": "./lib/js/src/screens/notfound/NotFound.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             },
             {
-              "id": 51,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-              "name": "./src/screens/notfound/NotFound.css"
+              "id": 47,
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+              "name": "./src/screens/homepage/HomePage.css"
             }
           ],
           "failed": false,
@@ -1513,8 +1513,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-              "name": "./lib/js/src/screens/notfound/NotFound.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             },
             {
               "id": 2,
@@ -2014,9 +2014,9 @@
           "chunks": [
             0
           ],
-          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
+          "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
           "issuerId": null,
-          "issuerName": "./lib/js/src/screens/detailpage/FilmDetailPage.js",
+          "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
           "issuerPath": [
             {
               "id": 26,
@@ -2030,8 +2030,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
-              "name": "./lib/js/src/screens/detailpage/FilmDetailPage.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             }
           ],
           "failed": false,
@@ -2219,8 +2219,8 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-              "name": "./lib/js/src/screens/notfound/NotFound.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             },
             {
               "id": 2,
@@ -3190,13 +3190,13 @@
             },
             {
               "id": null,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-              "name": "./lib/js/src/screens/notfound/NotFound.js"
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+              "name": "./lib/js/src/screens/homepage/HomePage.js"
             },
             {
-              "id": 51,
-              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-              "name": "./src/screens/notfound/NotFound.css"
+              "id": 47,
+              "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+              "name": "./src/screens/homepage/HomePage.css"
             },
             {
               "id": 12,
@@ -4025,9 +4025,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/notfound/NotFound.js",
+      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
       "issuerPath": [
         {
           "id": 26,
@@ -4041,8 +4041,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-          "name": "./lib/js/src/screens/notfound/NotFound.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         }
       ],
       "failed": false,
@@ -4671,9 +4671,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-      "issuerId": 52,
-      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/screens/notfound/NotFound.css",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+      "issuerId": 48,
+      "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/screens/homepage/HomePage.css",
       "issuerPath": [
         {
           "id": 26,
@@ -4687,18 +4687,18 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-          "name": "./lib/js/src/screens/notfound/NotFound.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         },
         {
-          "id": 51,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-          "name": "./src/screens/notfound/NotFound.css"
+          "id": 47,
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+          "name": "./src/screens/homepage/HomePage.css"
         },
         {
-          "id": 52,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-          "name": "./node_modules/css-loader/dist/cjs.js!./src/screens/notfound/NotFound.css"
+          "id": 48,
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/screens/homepage/HomePage.css"
         }
       ],
       "failed": false,
@@ -4755,9 +4755,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-      "issuerId": 51,
-      "issuerName": "./src/screens/notfound/NotFound.css",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+      "issuerId": 47,
+      "issuerName": "./src/screens/homepage/HomePage.css",
       "issuerPath": [
         {
           "id": 26,
@@ -4771,13 +4771,13 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-          "name": "./lib/js/src/screens/notfound/NotFound.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         },
         {
-          "id": 51,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-          "name": "./src/screens/notfound/NotFound.css"
+          "id": 47,
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+          "name": "./src/screens/homepage/HomePage.css"
         }
       ],
       "failed": false,
@@ -4948,8 +4948,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-          "name": "./lib/js/src/screens/notfound/NotFound.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         },
         {
           "id": 2,
@@ -5448,9 +5448,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/detailpage/FilmDetailPage.js",
+      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
       "issuerPath": [
         {
           "id": 26,
@@ -5464,8 +5464,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
-          "name": "./lib/js/src/screens/detailpage/FilmDetailPage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         }
       ],
       "failed": false,
@@ -5651,8 +5651,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-          "name": "./lib/js/src/screens/notfound/NotFound.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         },
         {
           "id": 2,
@@ -6614,13 +6614,13 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
-          "name": "./lib/js/src/screens/notfound/NotFound.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         },
         {
-          "id": 51,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/notfound/NotFound.css",
-          "name": "./src/screens/notfound/NotFound.css"
+          "id": 47,
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/style-loader/index.js!/home/travis/build/mazipan/ghibli-reasonreact/node_modules/css-loader/dist/cjs.js!/home/travis/build/mazipan/ghibli-reasonreact/src/screens/homepage/HomePage.css",
+          "name": "./src/screens/homepage/HomePage.css"
         },
         {
           "id": 12,
