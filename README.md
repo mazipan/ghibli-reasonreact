@@ -1,7 +1,6 @@
 # Ghibli ReasonReact
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
-[![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/) [![Netlify Status](https://api.netlify.com/api/v1/badges/c2269950-e6b3-4dcf-9214-19d77963182d/deploy-status)](https://app.netlify.com/sites/ghibli-reasonreact/deploys)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors) [![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/) [![Netlify Status](https://api.netlify.com/api/v1/badges/c2269950-e6b3-4dcf-9214-19d77963182d/deploy-status)](https://app.netlify.com/sites/ghibli-reasonreact/deploys)
 
 👻 Ghibli studio's film explorer built with [Reason React](https://github.com/reasonml/reason-react), based on [Reason React Hackernews Boilerplate](https://github.com/reasonml-community/reason-react-hacker-news)
 
@@ -33,17 +32,13 @@ yarn start
 yarn build
 ```
 
-## Credit
+## Credits
 
 + [ReasonML](https://reasonml.github.io/)
 + [Reason React](https://github.com/reasonml/reason-react)
 + [React](https://reactjs.org/)
 + [Reason React Hackernews](https://github.com/reasonml-community/reason-react-hacker-news)
 + [Janaipakos](https://github.com/janaipakos) for awesome [Ghibli Studio API](https://ghibliapi.herokuapp.com/)
-
----
-
-Copyright © 2019 by Irfan Maulana
 
 ## Contributors
 
@@ -56,3 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+---
+
+Copyright © 2019 by Irfan Maulana
