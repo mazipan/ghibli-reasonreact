@@ -6,11 +6,11 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=production npm run build",
-    "start": "npm run dev | npm run bsb-watch",
+    "start": "npm run dev | npm run watch:re",
     "dev": "NODE_ENV=development webpack-dev-server",
-    "bsb-watch": "bsb -make-world -w",
-    "build": "npm run clean:dist && npm run build:bsb && npm run build:webpack",
-    "build:bsb": "bsb -make-world",
+    "watch:re": "bsb -make-world -w",
+    "build": "npm run clean:dist && npm run build:re && npm run build:webpack",
+    "build:re": "bsb -make-world",
     "build:webpack": "NODE_ENV=production webpack",
     "publish:demo": "node ./publish-demo.js",
     "analyze": "NODE_ENV=analyze yarn build; analyze-bundle -b dist/build/main.js -s dist/build/stats.json",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "compression-webpack-plugin": "^2.0.0",
+    "concurrently": "^4.1.0",
     "copy-webpack-plugin": "^5.0.2",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",

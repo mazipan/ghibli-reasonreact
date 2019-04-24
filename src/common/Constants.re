@@ -1,12 +1,20 @@
-type filmConstantModel = {
+type additionalData = {
   id: string,
   imdb: string,
   image: string,
   streaming: string,
-  title: string,
+  title:string,
 };
 
-let filmConstantData: list(filmConstantModel) = [
+module Url = {
+    let base = "https://ghibliapi.herokuapp.com/films";
+    let get_detail_from_id = (id) => {j|$base/$id|j};
+}
+
+
+
+
+let additionalDatafilms: list(additionalData) = [
   {
     id: "2baf70d1-42bb-4437-b551-e5fed5a87abe",
     imdb: "http://www.imdb.com/title/tt0092067/",
@@ -148,9 +156,3 @@ let filmConstantData: list(filmConstantModel) = [
     title: "When Marnie Was There",
   },
 ];
-
-module ConstantFilm = {
-  let getAdditionalData = (id: string): filmConstantModel => {
-    List.find((item: filmConstantModel) => item.id === id, filmConstantData);
-  };
-};

@@ -18,18 +18,26 @@ let fromNow = unixtime => {
   };
 };
 
-[@bs.send] [@bs.return nullable]
-external getAttribute: (Js.t('a), string) => option(string) = "getAttribute";
+// is it used or not ??
+// [@bs.send] [@bs.return nullable]
+// external getAttribute: (Js.t('a), string) => option(string) = "getAttribute";
 
-let dangerousHtml: string => Js.t('a) = html => {"__html": html};
+// let dangerousHtml: string => Js.t('a) = html => {"__html": html};
 
-let distanceFromBottom: unit => int =
-  () => {
-    let bodyClientHeight = [%raw "document.body.clientHeight"];
-    let windowScrollY = [%raw "window.scrollY"];
-    let windowInnerHeight = [%raw "window.innerHeight"];
-    bodyClientHeight - (windowScrollY + windowInnerHeight);
-  };
+// let distanceFromBottom: unit => int =
+//   () => {
+//     let bodyClientHeight = [%raw "document.body.clientHeight"];
+//     let windowScrollY = [%raw "window.scrollY"];
+//     let windowInnerHeight = [%raw "window.innerHeight"];
+//     bodyClientHeight - (windowScrollY + windowInnerHeight);
+//   };
 
 [@bs.module]
 external registerServiceWorker: unit => unit = "src/registerServiceWorker";
+
+module Data = {
+  let getAdditionalData = (id: string) => {
+    List.find((item: Constants.additionalData) => item.id === id, Constants.additionalDatafilms);
+  };
+
+}

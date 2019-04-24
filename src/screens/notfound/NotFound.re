@@ -1,8 +1,8 @@
 open Utils;
 
-requireCSS("src/NotFound.css");
+requireCSS("src/screens/notfound/NotFound.css");
 
-let notFoundImage = requireAssetURI("src/notfound404.png");
+let notFoundImage = requireAssetURI("src/assets/image/notfound404.png");
 
 let component = ReasonReact.statelessComponent("NotFound");
 

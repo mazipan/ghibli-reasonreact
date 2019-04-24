@@ -1,0 +1,9 @@
+.FilmDetailPage__img{
+    display: block;
+    border-radius: .5em;
+    width: 182px;
+    height: 268px;
+  }
+  .FilmDetailPage__desc{
+    margin-top: 2em;
+  }

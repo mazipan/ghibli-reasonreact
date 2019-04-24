@@ -15,7 +15,8 @@
   "refmt": 3,
   "sources": [
     {
-      "dir": "src"
+      "dir": "src",
+      "subdirs": true
     }
   ]
 }
