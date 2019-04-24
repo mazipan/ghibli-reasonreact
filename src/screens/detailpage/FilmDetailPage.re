@@ -1,40 +1,26 @@
 open Utils;
 
-requireCSS("src/FilmPage.css");
-let placeholderImage = requireAssetURI("src/placeholder.png");
+requireCSS("src/screens/detailpage/DetailPage.css");
+let placeholderImage = requireAssetURI("src/assets/images/placeholder.png");
 
-type state = {
-  film: option(Model.film),
-  loading: bool,
-};
+let component = ReasonReact.statelessComponent("FilmDetailPage");
 
-type action =
-  | Loaded((Model.film))
-  | Loading;
-
-let component = ReasonReact.reducerComponent("FilmDetailPage");
+module GetDetailFilm =
+  Get.Make({
+    type response = Model.film
+  });
 
 let make = (~id, _children) => {
   ...component,
-  initialState: () => {film: None, loading: false},
-  reducer: (action, state) =>
-    switch (action) {
-    | Loading => ReasonReact.Update({...state, loading: true})
-    | Loaded((data)) =>
-      ReasonReact.Update({
-        film: Some(data),
-        loading: false,
-      });
-    },
-  didMount: ({send}) => {
-    FilmService.fetchData(~remoteUrl=Constants.Url.get_detail_from_id(id), ~decoder=Model.read_film, ~callback=data => send(Loaded(data)))
-  },
   render: ({ state }) =>
     <div className="FilmDetailPage">
-      (
-        switch (state.film) {
-          | Some(film) =>
-            <div>
+
+       <GetDetailFilm remoteUrl=Constants.Url.get_detail_from_id(id) decoder=Model.read_film>
+      ...{(status) => {
+        switch(status){
+          | Idle => <p></p>
+          | Loading => ReasonReact.string("loading")
+          | Loaded(film) =>             <div>
               (
                 switch (film.image) {
                   | Some(image) => <img alt=film.title src=image className="FilmDetailPage__img"/>
@@ -56,8 +42,8 @@ let make = (~id, _children) => {
                 {ReasonReact.string(film.description) }
               </div>
             </div>
-          | None => ReasonReact.string("loading")
-          }
-      )
+        }
+      }}
+    </GetDetailFilm>
     </div>,
 };

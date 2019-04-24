@@ -1,19 +1,10 @@
 
 open Utils;
 
-requireCSS("src/FilmPage.css");
-let placeholderImage = requireAssetURI("src/placeholder.png");
+requireCSS("src/screens/homepage/HomePage.css");
+let placeholderImage = requireAssetURI("src/assets/image/placeholder.png");
 
-type state = {
-  films: list(Model.film),
-  loading: bool,
-};
-
-type action =
-  | Loaded((list(Model.film)))
-  | Loading;
-
-let component = ReasonReact.reducerComponent("FilmPage");
+let component = ReasonReact.statelessComponent("HomePage");
 
 module GetFilms =
   Get.Make({
@@ -22,33 +13,15 @@ module GetFilms =
 
 let make = _children => {
   ...component,
-  initialState: () => {films: [], loading: false},
-  reducer: (action, state) =>
-    switch (action) {
-    | Loading => ReasonReact.Update({...state, loading: true})
-    | Loaded((data)) =>
-      ReasonReact.Update({
-        films: data,
-        loading: false,
-      });
-    },
-  didMount: ({send}) => {
-    //FilmService.fetchData(~remoteUrl=Constants.Url.base, ~decoder=Model.read_films_response, ~callback=data => send(Loaded(data)))
-    ()
-  },
   render: ({ state }) =>
     <div className="FilmPage">
     <GetFilms remoteUrl=Constants.Url.base decoder=Model.read_films_response>
       ...{(status) => {
         switch(status){
-          | Idle => <p></p>
-          | Loaded(datas) => <p></p>
-        }
-      }}
-    </GetFilms>
-    (
-      if (List.length(state.films) > 0) {
-        state.films
+          | Idle => ReasonReact.null
+          | Loading => ReasonReact.string("Loading")
+          | Loaded(datas) =>      if (List.length(datas) > 0) {
+        datas
         ->
           Model.(
             List.map(({ id, title, image, release_date})=>
@@ -71,6 +44,8 @@ let make = _children => {
       } else {
         ReasonReact.null;
       }
-    )
+        }
+      }}
+    </GetFilms>
     </div>,
 };
