@@ -1,3 +1,5 @@
+
+
 type film = {
   id: string,
   title: string,
@@ -14,7 +16,8 @@ type film = {
 
 let read_film = (json) => {
     let id = Json.Decode.(json |> field("id", string));
-    let staticData = FilmConstant.ConstantFilm.getAdditionalData(id)
+    let staticData = Utils.Data.getAdditionalData(id);
+    Js.log(json);
     Json.Decode.{
       id,
       title: json |> field("title", string),

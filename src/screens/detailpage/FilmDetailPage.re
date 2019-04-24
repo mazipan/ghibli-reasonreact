@@ -1,7 +1,7 @@
 open Utils;
 
 requireCSS("src/screens/detailpage/DetailPage.css");
-let placeholderImage = requireAssetURI("src/assets/images/placeholder.png");
+let placeholderImage = requireAssetURI("src/assets/image/placeholder.png");
 
 let component = ReasonReact.statelessComponent("FilmDetailPage");
 

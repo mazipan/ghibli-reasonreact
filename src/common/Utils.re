@@ -35,3 +35,9 @@ let fromNow = unixtime => {
 [@bs.module]
 external registerServiceWorker: unit => unit = "src/registerServiceWorker";
 
+module Data = {
+  let getAdditionalData = (id: string) => {
+    List.find((item: Constants.additionalData) => item.id === id, Constants.additionalDatafilms);
+  };
+
+}
