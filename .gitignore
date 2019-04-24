@@ -8,4 +8,6 @@
 .DS_Store
 .bsb.lock
 .vscode/
+package-lock.json
+yarn.lock
 
