@@ -24,7 +24,7 @@
     "@glennsl/bs-json": "^3.0.0",
     "bs-fetch": "^0.3.1",
     "bs-platform": "5.0.4",
-    "bs-webapi": "^0.14.2",
+    "bs-webapi": "^0.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "reason-react": "0.7.0"
