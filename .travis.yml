@@ -5,6 +5,7 @@ branches:
   - master
   - /^greenkeeper/.*$/
   - /^feature/.*$/
+  - /^renovate/.*$/
 # cache:
 #   directories:
 #     - node_modules
