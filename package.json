@@ -58,6 +58,6 @@
     "webpack-manifest-plugin": "2.0.4",
     "webpack-shell-plugin": "0.5.0",
     "webpack-stats-plugin": "0.2.1",
-    "workbox-webpack-plugin": "4.3.0"
+    "workbox-webpack-plugin": "4.3.1"
   }
 }
