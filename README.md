@@ -1,6 +1,6 @@
 # Ghibli ReasonReact
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors) [![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) [![Greenkeeper badge](https://badges.greenkeeper.io/mazipan/ghibli-reasonreact.svg)](https://greenkeeper.io/) [![Netlify Status](https://api.netlify.com/api/v1/badges/c2269950-e6b3-4dcf-9214-19d77963182d/deploy-status)](https://app.netlify.com/sites/ghibli-reasonreact/deploys)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors) [![Reason React](https://img.shields.io/badge/Reason-React-blue.svg)](https://reasonml.github.io/reason-react/) [![Travis](https://img.shields.io/travis/mazipan/ghibli-reasonreact.svg)](https://travis-ci.org/mazipan/ghibli-reasonreact) ![Dependencies](https://img.shields.io/david/mazipan/ghibli-reasonreact.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/c2269950-e6b3-4dcf-9214-19d77963182d/deploy-status)](https://app.netlify.com/sites/ghibli-reasonreact/deploys)
 
 👻 Ghibli studio's film explorer built with [Reason React](https://github.com/reasonml/reason-react), based on [Reason React Hackernews Boilerplate](https://github.com/reasonml-community/reason-react-hacker-news)
 
