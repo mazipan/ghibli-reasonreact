@@ -3676,18 +3676,18 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
-              "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
-              "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
+              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
+              "module": "./node_modules/bs-platform/lib/js/caml_io.js",
+              "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
               "type": "cjs require",
               "userRequest": "process",
               "loc": "1:0-40"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
-              "module": "./node_modules/bs-platform/lib/js/caml_io.js",
-              "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
+              "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
+              "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
+              "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
               "type": "cjs require",
               "userRequest": "process",
               "loc": "1:0-40"
@@ -7093,18 +7093,18 @@
       "reasons": [
         {
           "moduleId": null,
-          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
-          "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
-          "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
+          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
+          "module": "./node_modules/bs-platform/lib/js/caml_io.js",
+          "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
           "type": "cjs require",
           "userRequest": "process",
           "loc": "1:0-40"
         },
         {
           "moduleId": null,
-          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_io.js",
-          "module": "./node_modules/bs-platform/lib/js/caml_io.js",
-          "moduleName": "./node_modules/bs-platform/lib/js/caml_io.js",
+          "moduleIdentifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/bs-platform/lib/js/caml_sys.js",
+          "module": "./node_modules/bs-platform/lib/js/caml_sys.js",
+          "moduleName": "./node_modules/bs-platform/lib/js/caml_sys.js",
           "type": "cjs require",
           "userRequest": "process",
           "loc": "1:0-40"
