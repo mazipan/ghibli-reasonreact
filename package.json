@@ -51,7 +51,7 @@
     "upath": "1.1.2",
     "webpack": "4.33.0",
     "webpack-bundle-size-analyzer": "3.0.0",
-    "webpack-cli": "3.3.3",
+    "webpack-cli": "3.3.4",
     "webpack-closure-compiler": "2.1.6",
     "webpack-common-shake": "2.1.0",
     "webpack-dev-server": "3.7.1",
