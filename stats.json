@@ -3,8 +3,8 @@
   "warnings": [
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
-  "version": "4.35.3",
-  "hash": "0a6cfcbc1643ee1c05f5",
+  "version": "4.39.3",
+  "hash": "2ddf156394d24bc91c69",
   "assetsByChunkName": {
     "app": "app.js"
   },
@@ -18,7 +18,7 @@
     },
     {
       "name": "app.js",
-      "size": 167514,
+      "size": 167554,
       "chunks": [
         0
       ],
@@ -29,7 +29,7 @@
     },
     {
       "name": "app.js.gz",
-      "size": 53836,
+      "size": 53853,
       "chunks": [],
       "chunkNames": [],
       "emitted": false
@@ -224,7 +224,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-a9b2a73f9de2f21ffda8.json",
+      "name": "iconstats-4cda7d6060f5ffda3ca3.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -303,9 +303,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
+      "issuerName": "./lib/js/src/screens/detailpage/FilmDetailPage.js",
       "issuerPath": [
         {
           "id": 27,
@@ -319,8 +319,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
-          "name": "./lib/js/src/screens/homepage/HomePage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
+          "name": "./lib/js/src/screens/detailpage/FilmDetailPage.js"
         }
       ],
       "failed": false,
@@ -609,5 +609,12 @@
       "warnings": 0
     }
   ],
-  "filteredModules": 44
+  "filteredModules": 44,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  }
 }
