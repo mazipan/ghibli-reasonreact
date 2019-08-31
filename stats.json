@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
   "version": "4.39.3",
-  "hash": "7d2c69ef4d14cf2f3d4c",
+  "hash": "5cad9a2a8fe14f3f039a",
   "assetsByChunkName": {
     "app": "app.js"
   },
@@ -224,7 +224,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-eb3ca199524ddabf9804.json",
+      "name": "iconstats-74bf11e4a4e07d60b82c.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -303,9 +303,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
+      "issuerName": "./lib/js/src/screens/notfound/NotFound.js",
       "issuerPath": [
         {
           "id": 27,
@@ -319,8 +319,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
-          "name": "./lib/js/src/screens/homepage/HomePage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
+          "name": "./lib/js/src/screens/notfound/NotFound.js"
         }
       ],
       "failed": false,
