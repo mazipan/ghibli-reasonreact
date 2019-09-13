@@ -130,7 +130,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/index.html"
   },
   {
-    "revision": "32ec7609271e3e8b1ff83f12107d0066",
+    "revision": "1e4bf49408d3b5cbe72a8a42fb772129",
     "url": "/stats.json"
   }
 ]);
