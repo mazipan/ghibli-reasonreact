@@ -3,8 +3,8 @@
   "warnings": [
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
-  "version": "4.40.2",
-  "hash": "8fdc91bd2f627f47d019",
+  "version": "4.41.0",
+  "hash": "df6a7e921c899d06336c",
   "assetsByChunkName": {
     "app": "app.js"
   },
@@ -254,7 +254,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-ca68eefe429072ba761f.json",
+      "name": "iconstats-3f40e6c14f421a5dff19.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -336,9 +336,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/detailpage/FilmDetailPage.js",
+      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
       "issuerPath": [
         {
           "id": 27,
@@ -352,8 +352,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/detailpage/FilmDetailPage.js",
-          "name": "./lib/js/src/screens/detailpage/FilmDetailPage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+          "name": "./lib/js/src/screens/homepage/HomePage.js"
         }
       ],
       "failed": false,
