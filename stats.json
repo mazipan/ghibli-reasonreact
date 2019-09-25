@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
   "version": "4.41.0",
-  "hash": "df6a7e921c899d06336c",
+  "hash": "120acb418d498f7b83c2",
   "assetsByChunkName": {
     "app": "app.js"
   },
@@ -19,7 +19,7 @@
     },
     {
       "name": "app.js",
-      "size": 167644,
+      "size": 167666,
       "chunks": [
         0
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "app.js.gz",
-      "size": 53891,
+      "size": 53915,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -254,7 +254,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-3f40e6c14f421a5dff19.json",
+      "name": "iconstats-70c36ca199e4e934ccb8.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -306,7 +306,7 @@
       "name": "./node_modules/bs-platform/lib/js/curry.js",
       "index": 3,
       "index2": 3,
-      "size": 13147,
+      "size": 13091,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -336,9 +336,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
+      "issuerName": "./lib/js/src/screens/notfound/NotFound.js",
       "issuerPath": [
         {
           "id": 27,
@@ -352,8 +352,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
-          "name": "./lib/js/src/screens/homepage/HomePage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
+          "name": "./lib/js/src/screens/notfound/NotFound.js"
         }
       ],
       "failed": false,
@@ -366,7 +366,7 @@
       "name": "./node_modules/reason-react/lib/js/src/ReasonReact.js",
       "index": 8,
       "index2": 9,
-      "size": 19972,
+      "size": 20025,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -410,7 +410,7 @@
       "name": "./node_modules/bs-platform/lib/js/block.js",
       "index": 2,
       "index2": 0,
-      "size": 984,
+      "size": 118,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -432,7 +432,7 @@
       "name": "./node_modules/reason-react/lib/js/src/ReasonReactRouter.js",
       "index": 21,
       "index2": 19,
-      "size": 4544,
+      "size": 4538,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -454,7 +454,7 @@
       "name": "./node_modules/bs-platform/lib/js/caml_obj.js",
       "index": 22,
       "index2": 18,
-      "size": 14863,
+      "size": 14409,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -476,7 +476,7 @@
       "name": "./node_modules/reason-react/lib/js/src/ReactDOMRe.js",
       "index": 15,
       "index2": 16,
-      "size": 2704,
+      "size": 2673,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -542,7 +542,7 @@
       "name": "./lib/js/src/screens/homepage/HomePage.js",
       "index": 6,
       "index2": 48,
-      "size": 4690,
+      "size": 4694,
       "cacheable": true,
       "built": true,
       "optional": false,
