@@ -54,7 +54,7 @@
     "webpack-cli": "3.3.9",
     "webpack-closure-compiler": "2.1.6",
     "webpack-common-shake": "2.1.0",
-    "webpack-dev-server": "3.8.1",
+    "webpack-dev-server": "3.8.2",
     "webpack-manifest-plugin": "2.1.2",
     "webpack-shell-plugin": "0.5.0",
     "webpack-stats-plugin": "0.3.0",
