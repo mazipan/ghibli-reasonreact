@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
   "version": "4.41.0",
-  "hash": "9635349a66652ba21949",
+  "hash": "9b1426393f393497296a",
   "assetsByChunkName": {
     "app": "app.js"
   },
@@ -254,7 +254,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-bf0b8a957d33646c396f.json",
+      "name": "iconstats-99df13674bbabeed46fd.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -336,9 +336,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/reason-react/lib/js/src/ReasonReactRouter.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
+      "issuerName": "./node_modules/reason-react/lib/js/src/ReasonReactRouter.js",
       "issuerPath": [
         {
           "id": 27,
@@ -347,13 +347,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/app.js",
-          "name": "./lib/js/src/app.js"
-        },
-        {
-          "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
-          "name": "./lib/js/src/screens/homepage/HomePage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/node_modules/reason-react/lib/js/src/ReasonReactRouter.js",
+          "name": "./node_modules/reason-react/lib/js/src/ReasonReactRouter.js"
         }
       ],
       "failed": false,
