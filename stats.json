@@ -4,19 +4,11 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
   "version": "4.41.2",
-  "hash": "028f5c9c70cece18ea62",
+  "hash": "d21a2d67322aed68de91",
   "assetsByChunkName": {
     "app": "app.js"
   },
   "assets": [
-    {
-      "name": "8d506f923931e4bf88c7b626e6ab217e.png",
-      "size": 7414,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
     {
       "name": "app.js",
       "size": 167671,
@@ -31,7 +23,7 @@
     },
     {
       "name": "app.js.gz",
-      "size": 53923,
+      "size": 53924,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -40,6 +32,14 @@
     {
       "name": "ca4d9cb218ce682f4f615880812c8e85.png",
       "size": 82,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "f528877f739a8bb98db9e8f54702de77.png",
+      "size": 6493,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -254,7 +254,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-3850eea3f70b2c24ad6a.json",
+      "name": "iconstats-eb3da8ed1d92a7031bca.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
@@ -336,9 +336,9 @@
       "chunks": [
         0
       ],
-      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
+      "issuer": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
       "issuerId": null,
-      "issuerName": "./lib/js/src/screens/homepage/HomePage.js",
+      "issuerName": "./lib/js/src/screens/notfound/NotFound.js",
       "issuerPath": [
         {
           "id": 27,
@@ -352,8 +352,8 @@
         },
         {
           "id": null,
-          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/homepage/HomePage.js",
-          "name": "./lib/js/src/screens/homepage/HomePage.js"
+          "identifier": "/home/travis/build/mazipan/ghibli-reasonreact/lib/js/src/screens/notfound/NotFound.js",
+          "name": "./lib/js/src/screens/notfound/NotFound.js"
         }
       ],
       "failed": false,
