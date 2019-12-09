@@ -32,7 +32,7 @@
   "devDependencies": {
     "compression-webpack-plugin": "3.0.1",
     "concurrently": "5.0.1",
-    "copy-webpack-plugin": "5.0.5",
+    "copy-webpack-plugin": "5.1.0",
     "cross-env": "5.2.1",
     "css-loader": "3.3.0",
     "electrode-bundle-analyzer": "1.0.1",
