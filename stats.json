@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
   "version": "4.41.2",
-  "hash": "c5f613566bce4f02b746",
+  "hash": "efb0648921bed64e51ec",
   "assetsByChunkName": {
     "app": "app.js"
   },
@@ -254,7 +254,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-3850eea3f70b2c24ad6a.json",
+      "name": "iconstats-202a0cbbd90055439b03.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
