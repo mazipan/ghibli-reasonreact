@@ -34,7 +34,7 @@
     "concurrently": "5.0.1",
     "copy-webpack-plugin": "5.1.1",
     "cross-env": "5.2.1",
-    "css-loader": "3.3.2",
+    "css-loader": "3.4.0",
     "electrode-bundle-analyzer": "1.0.1",
     "express": "4.17.1",
     "express-static-gzip": "1.1.3",
