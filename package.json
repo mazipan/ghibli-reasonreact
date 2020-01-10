@@ -33,7 +33,7 @@
     "compression-webpack-plugin": "3.1.0",
     "concurrently": "5.0.2",
     "copy-webpack-plugin": "5.1.1",
-    "cross-env": "5.2.1",
+    "cross-env": "6.0.3",
     "css-loader": "3.4.2",
     "electrode-bundle-analyzer": "1.0.1",
     "express": "4.17.1",
