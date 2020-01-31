@@ -37,7 +37,7 @@
     "css-loader": "3.4.2",
     "electrode-bundle-analyzer": "1.0.1",
     "express": "4.17.1",
-    "express-static-gzip": "1.1.3",
+    "express-static-gzip": "2.0.6",
     "extract-text-webpack-plugin": "3.0.2",
     "favicons-webpack-plugin": "0.0.9",
     "file-loader": "4.3.0",
