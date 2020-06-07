@@ -4,7 +4,7 @@
     "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
   ],
   "version": "4.41.5",
-  "hash": "77695d4aec2007bc4d72",
+  "hash": "27e604cfe6179641a4f6",
   "publicPath": "/",
   "outputPath": "/home/travis/build/mazipan/ghibli-reasonreact/dist",
   "assetsByChunkName": {
@@ -256,7 +256,7 @@
       "emitted": false
     },
     {
-      "name": "iconstats-0d932500b3fcc8776e19.json",
+      "name": "iconstats-6210971f1bbcb48f234e.json",
       "size": 2377,
       "chunks": [],
       "chunkNames": [],
